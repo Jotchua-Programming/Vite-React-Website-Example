@@ -3,30 +3,38 @@ This repository showcases a demo website built using Vite, React, CSS, PHP, SQLi
 **Features**
 
 Search Functionality: 
+
 Users can search publications by author, title, country, or topic.
 
 Publication Summaries: 
+
 Each result includes a summary, a link to the video, and access to the full paper.
 
 Random Video Display: 
+
 The homepage highlights a random video from the conference.
 
 User Accounts: 
+
 Firebase-powered JWTs enable secure login and account functionality.
 
 Notes and Favorites: 
+
 Users can take notes on publications and favorite them for later reference.
 
 **Web API**
 The Web API acts as the backbone of the application, enabling smooth navigation and error handling. Key features include:
 
 Endpoint Framework: 
+
 Routes user requests to appropriate endpoints.
 
 Exception Handling: 
+
 Handles unknown pages and bad responses.
 
 Data Requests: 
+
 Facilitates secure communication between the client and server.
 
 **App**
