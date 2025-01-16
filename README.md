@@ -2,47 +2,31 @@ This repository showcases a demo website built using Vite, React, CSS, PHP, SQLi
 
 **Features**
 
-Search Functionality: 
+- Search Functionality: Users can search publications by author, title, country, or topic.
 
-Users can search publications by author, title, country, or topic.
+- Publication Summaries: Each result includes a summary, a link to the video, and access to the full paper.
 
-Publication Summaries: 
+- Random Video Display: The homepage highlights a random video from the conference.
 
-Each result includes a summary, a link to the video, and access to the full paper.
+- User Accounts: Firebase-powered JWTs enable secure login and account functionality.
 
-Random Video Display: 
-
-The homepage highlights a random video from the conference.
-
-User Accounts: 
-
-Firebase-powered JWTs enable secure login and account functionality.
-
-Notes and Favorites: 
-
-Users can take notes on publications and favorite them for later reference.
+- Notes and Favorites: Users can take notes on publications and favorite them for later reference.
 
 **Web API**
 The Web API acts as the backbone of the application, enabling smooth navigation and error handling. Key features include:
 
-Endpoint Framework: 
+- Endpoint Framework: Routes user requests to appropriate endpoints.
 
-Routes user requests to appropriate endpoints.
+- Exception Handling: Handles unknown pages and bad responses.
 
-Exception Handling: 
-
-Handles unknown pages and bad responses.
-
-Data Requests: 
-
-Facilitates secure communication between the client and server.
+- Data Requests: Facilitates secure communication between the client and server.
 
 **App**
 The App folder contains the Vite-based front end, which serves as the user interface. It is responsible for:
 
-Fetching and displaying data from the Web API.
-Rendering content dynamically using React and Tailwind CSS.
-Handling authentication via JWT tokens for secure user interactions.
+- Fetching and displaying data from the Web API.
+- Rendering content dynamically using React and Tailwind CSS.
+- Handling authentication via JWT tokens for secure user interactions.
 
 **Setup and Usage With NPM and Vite**
 
