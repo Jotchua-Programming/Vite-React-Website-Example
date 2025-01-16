@@ -41,13 +41,13 @@ Handling authentication via JWT tokens for secure user interactions.
 Ensure you have NPM and Vite installed. If not, please view their documentation for instructions on how to do so.
 
 Install dependencies:
-'''
+```
 npm install  
-'''
+```
 Start the development server:
-'''
+```
 npm run dev  
-'''
+```
 
 
 **Important Notes**
